@@ -46,7 +46,6 @@ const ProductEditScreen = () => {
       setCategory(product.category);
       setCountInStock(product.countInStock);
       setDescription(product.description);
-    } else {
     }
   }, [product]);
 
