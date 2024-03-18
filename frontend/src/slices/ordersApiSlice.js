@@ -1,6 +1,5 @@
 import { apiSlice } from "./apiSlice";
 import { ORDERS_URL, PAYPAL_URL } from "../constants";
-import { OrderedBulkOperation } from "mongodb";
 
 export const ordersApiSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
